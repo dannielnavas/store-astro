@@ -3,3 +3,10 @@ layout: "../../layouts/Base.astro"
 title: "Hello World"
 date: "2024-11-22"
 ---
+## Titulo de mi sección
+
+export const data = {
+    date: new Date(2024, 11, 22),
+}
+
+La fecha de publicación es: {data.date.toDateString()}

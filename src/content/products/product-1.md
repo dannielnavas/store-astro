@@ -13,6 +13,6 @@ This is a lego space station. It is a great toy for kids. It is made of plastic 
 
 ### 2. Create a new page for the product
 
-Create a new file in the `src/pages/products` directory with the name `product-1.js`. This file will be used to display the product details.
+Create a new file in the `src/pages/products` directory with the name `product-2.md`. This file will be used to display the product details.
 
 ```jsx

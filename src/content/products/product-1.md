@@ -2,7 +2,7 @@
 title: "LEGO space station"
 description: "This is a lego space station"
 pubDate: "2021-01-01"
-heroImage: "https://source.unsplash.com/1600x900/"
+heroImage: "https://www.lego.com/cdn/cs/set/assets/blt10f1f60705363f29/60439.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1"
 price: 100
 category: "toys"
 ---

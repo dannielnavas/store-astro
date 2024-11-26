@@ -1,0 +1,24 @@
+---
+const { products } = Astro.props;
+---
+
+<section>
+  {
+    products.map(
+      (product: {
+        slug: any;
+        data: {
+          title: string;
+          description: string;
+          heroImage: string | null | undefined;
+        };
+      }) => (
+        <a href={`/product/${product.slug}`}>
+          <h2>{product.data.title}</h2>
+          <p>{product.data.description}</p>
+          <img src={product.data.heroImage} alt={product.data.title} />
+        </a>
+      )
+    )
+  }
+</section>

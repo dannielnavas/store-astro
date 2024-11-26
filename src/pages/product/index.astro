@@ -7,7 +7,7 @@ const products = await getCollection("products"); // Get all products el product
   {
     products.map((product) => (
       <a href={`/product/${product.slug}`}>
-        <h2>{product.data.title}</h2>
+        <h2>{product.data.name}</h2>
         <p>{product.data.description}</p>
         <img src={product.data.heroImage} alt={product.data.title} />
       </a>

@@ -1,0 +1,16 @@
+---
+import { getCollection } from "astro:content";
+const products = await getCollection("products"); // Get all products el products sale de la carpeta products su nombre es el nombre de la carpeta
+---
+
+<section>
+  {
+    products.map((product) => (
+      <a href={`/product/${product.slug}`}>
+        <h2>{product.data.title}</h2>
+        <p>{product.data.description}</p>
+        <img src={product.data.heroImage} alt={product.data.title} />
+      </a>
+    ))
+  }
+</section>
